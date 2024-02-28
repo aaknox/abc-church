@@ -1,0 +1,24 @@
+.about-title{
+    letter-spacing: 2px;
+    font-family: "Roboto", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    font-size: 2.25rem;
+    font-weight: 500;
+    color: #454b89 !important;
+    margin-top: 10px;
+  }
+
+  .about-info{
+    margin: 0 40px;
+  }
+
+  .about-img{
+    -webkit-border-top-right-radius: 50px;
+-webkit-border-bottom-right-radius: 50px;
+-moz-border-radius-topright: 50px;
+-moz-border-radius-bottomright: 50px;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+height: 400px;
+width: 400px;
+margin-top: 40px;
+  }

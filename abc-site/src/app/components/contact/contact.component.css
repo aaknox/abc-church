@@ -1,5 +1,5 @@
 
-.container {
+.bg-container {
   background: url(../../../assets/images/background.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -55,4 +55,16 @@
 
 i{
   margin-right: 10px;
+}
+
+.btn-send{
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+.info-box{
+  width: 100vw;
+}
+
+#footer{
 }

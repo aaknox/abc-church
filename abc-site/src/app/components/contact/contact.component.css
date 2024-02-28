@@ -66,5 +66,11 @@ i{
   width: 100vw;
 }
 
-#footer{
+.info-points{
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.info-points li{
+  list-style-position: inside;
 }

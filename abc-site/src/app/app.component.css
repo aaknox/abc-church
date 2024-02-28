@@ -1,0 +1,4 @@
+html, body{
+    animation: fadeInUp;
+    animation-duration: 30s;
+}

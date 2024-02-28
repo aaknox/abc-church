@@ -1,6 +1,6 @@
 
 .bg-container {
-  background: url(../../../assets/images/background.jpeg) no-repeat center center fixed; 
+  background: #0a237f no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -13,6 +13,10 @@
 .container .map {
   width: 45%;
   float: left;
+}
+
+.container .map iframe{
+  padding: 20px;
 }
 .container .contact-form {
   width: 53%;
@@ -44,13 +48,18 @@
   color: #242424;
 }
 .container .contact-form .btn-send {
-  background: #A383C9;
+  background: #efa03a;
   width: 180px;
   height: 60px;
   color: #FFFFFF;
   font-weight: 700;
   margin: 2% 8%;
+  padding-top: 4%;
   border: none;
+}
+
+.container .contact-form .btn-send:hover{
+  background-color: gray;
 }
 
 i{

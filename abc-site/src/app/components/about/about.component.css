@@ -1,3 +1,18 @@
+.fader{
+  animation: fadeInUp;
+  animation-duration: 2s;
+}
+
+.fadein{
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+
+.slider{
+  animation: slideInLeft;
+  animation-duration: 3s;
+}
+
 .about-title{
     letter-spacing: 2px;
     font-family: "Roboto", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;

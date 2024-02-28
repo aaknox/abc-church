@@ -1,3 +1,5 @@
+/* Header */
+
 a{
   text-decoration: none !important;
 }
@@ -5,6 +7,36 @@ a{
 a:hover, .logo-facebook:hover{
   color: #efa03a;
 }
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Roboto", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #454b89 !important;
+}
+
+.fa-heart{
+  margin-right: 10px;
+}
+
+.logo-facebook{
+  color: #6c757d !important;
+}
+
+.fa-facebook{
+  padding-left: 80px;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+/* Navbar */
 .nav-scroller {
     position: relative;
     z-index: 2;

@@ -1,3 +1,13 @@
+.fader{
+    animation: fadeInUp;
+    animation-duration: 2s;
+}
+
+.slider{
+    animation: slideInLeft;
+    animation-duration: 3s;
+}
+
 .services-section{
     margin: 0 auto;
 }

@@ -76,10 +76,20 @@ i{
 }
 
 .info-points{
-  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  align-items: start;
   padding-left: 0;
 }
 
-.info-points li{
-  list-style-position: inside;
+.info-points p{
+  width: 50%;
+  position: relative;
+  left: 35%;
+}
+
+.subtitle{
+  margin-top: 30px;
 }

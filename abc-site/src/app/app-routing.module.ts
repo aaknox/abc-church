@@ -4,6 +4,8 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
+import { MinServicesComponent } from './components/min-services/min-services.component';
+import { AnnouncementsComponent } from './components/announcements/announcements.component';
 
 const routes: Routes = [
   {
@@ -17,6 +19,14 @@ const routes: Routes = [
   {
     path: 'contact-us',
     component: ContactComponent
+  },
+  {
+    path: 'services',
+    component: MinServicesComponent
+  },
+  {
+    path: 'announcements',
+    component: AnnouncementsComponent
   },
   {
     path: '',

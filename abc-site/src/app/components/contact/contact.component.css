@@ -93,3 +93,64 @@ i{
 .subtitle{
   margin-top: 30px;
 }
+
+ /* Responsive Design */
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    .bg-container{
+      width: 400px;
+    }
+    .container .contact-form .title {
+      font-size: 1.5em;
+    }
+
+    .container .contact-form input,
+  .container .contact-form textarea {
+    width: 90%;
+  }
+
+  .container .contact-form textarea {
+    height: 225px;
+  }
+
+  #map-frame{
+    height: 400px !important;
+    position: relative;
+    top: 35px;
+  }
+
+    .map{
+      max-width: 200px;
+      height: 300px;
+    }
+
+    .container .contact-form .btn-send {
+      width: 300px;
+      margin: 0;
+      padding: 20px;
+      position: relative;
+      left: -65%;
+    }
+
+    .info-points p {
+      width: 50%;
+      position: relative;
+      left: 28%;
+      font-size: 0.8rem;
+      line-height: 0;
+  }
+
+  .info-points p:nth-child(1){
+    line-height: 1;
+  }
+
+  .info-points p:nth-child(3){
+    position: relative;
+    bottom: 15px;
+  }
+  
+  #footer .container div, .subtitle{
+    color: white;
+  }
+  }

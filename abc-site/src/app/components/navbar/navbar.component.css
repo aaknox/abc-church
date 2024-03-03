@@ -65,9 +65,19 @@ a:hover, .logo-facebook:hover{
   /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  #main-div{
+    width: 75vw;
+  }
   a{
     font-size: 0.7rem;
   }
+
+  .blog-header-logo {
+    font-size: 1.25rem;
+    position: relative;
+    left: 55px;
+  }
+
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
